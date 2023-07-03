@@ -11,19 +11,11 @@ ul {
   list-style-type: none;
 }
 
-/*.address {
-  color: var(--small-color);
-}
-
-.address:hover,
-address:focus {
-  color: #2196f3;
-}*/
-
 .logo {
   font-size: 26px;
   font-family: Raleway;
   font-weight: var(--big-font-weight);
+  color: #2196f3;
 }
 
 a.active-portofolio {
@@ -47,17 +39,27 @@ a.active-portofolio {
   color: var(--most-color);
 }
 
-a {
+.header-address {
   color: var(--small-color);
 }
 
-a:hover,
-a:focus {
+.footer-address {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-weight: var(--small-font-weight);
+}
+
+.address:hover,
+.address:focus {
   color: #2196f3;
 }
 
-button:hover,
-button:focus {
+.button {
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
   background-color: #2196f3;
 }
 
@@ -74,7 +76,7 @@ button:focus {
   font-weight: var(--big-font-weight);
 }
 
-.footer {
+.footer-info {
   background: #2f303a;
 }
 
